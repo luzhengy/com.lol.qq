@@ -1,0 +1,243 @@
+ .container {
+     width: 1225px;
+ }
+ /* 头部 */
+header {
+    height: 131px;
+    width: 100%;
+    line-height: 131px;
+    border-bottom: 4px solid #003e6e;
+}
+header  .header-top 
+{
+    width: 100%; 
+    height: 52px;
+    line-height:52px;
+}
+header  .header-top .txcz-logo{
+    float: left;
+    width: 300px;
+    height: 45px;
+   margin-top: 18px;
+    margin-left: 4px;
+}
+header  .header-top  p{
+    float: right;
+}
+header  .linknav{
+    margin-top: 34px;
+    height: 41px;
+    line-height: 41px;
+}
+header  .linknav .czdq{
+    float: left;
+    width: 202px;
+    height: 41px;
+    background-color: #015ca1;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+}
+header  .linknav .qbcz{
+    float: left;
+    margin-left: 5px;
+    width: 153px;
+    height: 41px;
+    border: 1px solid #ccc;
+    color: 19px;
+    text-align: center;
+}
+header  .linknav .pay-information{
+    float: right;
+    font-size: 14px;
+    color: #000;
+
+}
+.linknav .pay-information .payfor-information{
+ float: right;
+  width: 155px;
+  height: 33px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+}
+.pay-information .payfor-information  .LOL-logo-small{
+    float: left;
+    margin-top: 4px;
+    margin-left: 11px;
+    margin-right:8px;
+}
+
+/*主题内容  */
+main{
+    text-align: center;
+    margin-top: 25px;
+}
+main .container{
+    height: 757px;
+    border: 1px solid #ccc;
+}
+/* 主体左部分内容 */
+main .main-left{
+    float: left;
+    width: 260px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+.main-left img{
+   margin-top: 72px;
+}
+.main-left h2{
+    font-size: 22px;
+   
+    color: #5d5d5d;
+}
+.main-left span{
+    display: block;
+    margin-top: 6px;
+    font-size: 15px;
+    color: #7f7f7f;
+}
+.main-left p{
+    margin-top: 37px;
+    color: #7f7f7f;
+}
+.main-left .user-rule{
+    position: relative;
+    font-size: 15px;
+    color: #7f7f7f;
+    margin-top: 195px;
+}
+.main-left .user-rule i{
+    position: absolute;
+    left:40px ;
+    top: 2px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(../img/z-wjfw/spr.png);
+    background-position: 0px -11px;
+    background-size: 13px 73px;
+    background-repeat: no-repeat;
+}
+.main-left .user-rule  a{
+    color: #2a66b6;
+}
+/* 主体右部分 */
+.main-right {
+    overflow: hidden;
+    float: left;
+    margin-left:143px;
+}
+.main-right-top p{
+    text-align: left;
+    font-size: 11px;
+    color: #313131;
+   margin-top: 36px;
+}
+.main-right-top p i{
+    color: #2a69b6;
+}
+
+.main-right-body > li{
+    position: relative;
+   float: left;
+   width: 161px;
+   height: 161px;
+   margin-top: 36px;
+   margin-bottom: 78px;
+   margin-right: 15px;
+   border: 1px solid #ccc;
+}
+.main-right-body li:nth-child(1){
+    border: 1px solid #2a69b6;
+ }
+ .main-right-body li:nth-child(4){
+    color: #a3a3a3;
+ }
+.main-right-body li .coupon-count
+{
+    display: block;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 18px;
+}
+.main-right-body .coupon-count i{
+    margin-top: 1px;
+    margin-right: 8px;
+}
+.main-right-body .coupon-money{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+    width: calc(100% - 36px);
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    font-size: 17px;
+    border-top: 1px dashed #e3e3e3;
+}
+.main-right-foot h3 {
+    width: 100%;
+    height: 17px;
+    font-weight: normal;
+     font-size: 17px;
+     text-align: left;
+}
+.main-right-foot .pay-way{
+    width: 100%;
+    height: 51px;
+    margin-top: 15px;
+}
+.main-right-foot .pay-way li{
+    position: relative;
+    float: left;
+    text-align: left;
+    margin-right: 12px;
+    padding-left: 25px;
+    border: 1px solid #ccc;
+    font-size: 18PX;
+    width: 161px;
+    height: 51px;
+    line-height: 51px;
+    margin-top: 30px;
+}
+.main-right-foot  li:nth-child(1){
+    border: 1px solid #2a69b6;
+}
+
+.main-right-foot .pay-way span{
+    padding: 0;
+    display: block;
+    position: absolute;
+    bottom: 14px;
+    right: 25px;
+    height: 19px;
+    width: 37px;
+    color: #fff;
+    background: #ff6d33;
+    font-size: 15px;
+    color: black;
+}
+/* 底部 */
+footer{
+    width: 100%;
+   text-align: center;
+   margin-top: 199px;
+   color: #888;
+   font-size: 17px;
+   margin-bottom: 324px;
+}
+footer .link a{
+   color: #888;
+}
+footer i{
+ 
+   margin: 0 12px;
+}
+footer .copyright{
+   margin-top: 19px;
+}
+
+

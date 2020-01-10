@@ -1,0 +1,1929 @@
+/* <!-- 定义英雄联盟头部导航 --> */
+.lol-headnav{
+    position: relative;
+    height: 360px;
+    width: 1920px;
+    margin: 0 auto;
+    background:url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+/* 头部导航左部分 */
+.lol-logo{
+    float: left;
+    margin-top:12px;
+}
+
+.navbox{
+    float: left;
+    margin-top: 21px;
+    margin-left: 11px;
+    width: 725px;
+    text-align: center;
+}
+.navbox .title{
+   float: left;
+   width: 145px;
+   font-size:17px ;
+   color: #f5f5f5;
+}
+.navbox .subtitle{
+    float: left;
+    font-size: 8px;
+    width: 145px;
+    color: #a4a3a3;
+}
+
+/* 头部导航右部分 */
+.headnav-right{
+    float: right;
+    margin-top: 14px;
+
+}
+.headnav-right .search-logo{
+    float: left;
+    margin-top: 14px;
+
+}
+.headnav-right .lol-zhangmeng{
+       position: relative;
+        float: left;
+        margin-top: 12px;
+        margin-left: 33px;
+}
+/* 定义鼠标移动到掌盟图片时出现下拉掌盟二维码效果 */
+.headnav-right .lol-zhangmeng:hover .sanjiao,
+.headnav-right .lol-zhangmeng:hover  .ewm-box{
+    display: block;
+}
+.lol-zhangmeng .sanjiao{
+    position: absolute;
+    display: none;
+    top: 33px;
+    left: 50%;
+    margin-left: -6px;
+    width: 12px;
+    height: 12px;
+    border-bottom: 6px solid #272726;
+    border-top: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+}
+.lol-zhangmeng .ewm-box{
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    margin-left: -105.5px;
+    width: 211px;
+    height: 171px;
+    text-align: center;
+    background: #272726;
+
+}
+.lol-zhangmeng .ewm-box span{
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    margin: 15px auto;
+
+}
+ .ewm-box span  img{
+     width: 106px;
+     height: 106px;
+     margin:7px auto;
+ }
+ .lol-zhangmeng .ewm-box p{
+     width: 100%;
+     margin-top: 14px;
+     color: #cdbe91;
+     font-size: 11px;
+ }
+.headnav-right .headnav-right-user{
+   position: relative;
+   z-index: 3;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-left:42px;
+    width: 235px;
+}
+.headnav-right .headnav-right-user .user-img{
+    float: left;
+}
+.headnav-right-user  p{
+    float: left;
+    margin-left: 9px;
+    font-size: 15px;
+    color: #cdcccc;
+
+}
+.headnav-right-user   a{
+    float: left;
+
+    color: #fff3d0;
+}
+/* 头部导航右部分鼠标移动效果 */
+/* .headnav-right .headnav-right-user:hover .user-hover{
+    display: block;
+} */
+.user-hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 308px;
+    height: 230px;
+    background: #433d3a;
+    text-align: center;
+  
+   
+}
+.user-hover p{
+    height: 13px;
+    font-size: 12px;
+    margin-top:7px ;
+    margin-left: 0;
+    width: 100%;
+    color: #848383;
+  
+}
+.user-hover p:first-child{
+    margin-top: 112px;
+}
+.headnav-right .user-hover .span{
+    display: block;
+    font-size: 12px;
+    margin-top: 20px;
+    width: 100%;
+    color: #848383;
+}
+.user-hover a{
+    display: block;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    color: #e4e4e4;
+    background: #000000;
+    font-size: 15px;
+    margin-top: 22px;
+}
+/* 头部导航底部 */
+.lol-headnav .details {
+   position: absolute;
+  top: 288px;
+    left: 50%;
+    font-size: 12px;
+    margin-left: -80px;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #6e5324;
+    line-height: 40px;
+    color: #c89b2f;
+    background: #0c0c10;
+}
+.lol-headnav .version-information{
+    position: absolute;
+    display: block;
+    top:306px ;
+    font-size: 12px;
+    right: 0;
+    height: 26px;
+    line-height: 26px;
+    color: #888787;
+}
+.lol-headnav .version-information p{
+    float: left;
+ 
+}
+.version-information i{
+    float: left;
+    color: #f5d185;
+}
+.lol-headnav .version-information a{
+    float: right;
+    height: 26px;
+    width: 83px;
+    color: #ebc981;
+    margin-left: 14px;
+    font-size: 12px;
+    background: #4b4947;
+    border: 2px solid #846836;
+}
+/* 定义头部导航底部鼠标移动效果 */
+.lol-headnav .details:hover  {
+    color:rgb(216, 169, 68) ;
+}
+ .version-information a:hover {
+   background: rgb(23,23,23);
+}
+
+
+/* 定义资讯专栏样式 */
+.information {
+    height: 380px;
+    margin-top: 41px;
+    background: #eee;
+}
+/* <!-- 资讯专栏左部分 --> */
+.information-left {
+    float: left;
+}
+.information-left .picture{
+    width: 821px;
+    height: 340px;
+    background-image: url(../img/banner/banner_01.jpeg);
+}
+/* <!-- 左部分图片盒子下的链接信息 --> */
+.information-left-foot{
+    height: 40px;
+    width: 821px;
+    line-height: 40px;
+    color: #424242;
+    text-align: center;
+}
+.information-left-foot a{
+    float: left;
+    width: 164.2px;
+    background: #e3e2e2;
+    
+}
+.information-left-foot a:first-child{
+    background: #f7f6f6;
+    border-bottom: 2px solid #cea861;
+    color: #ab8e66;
+}
+
+.information-left-foot a:hover {
+    background: #f7f6f6;
+    border-bottom: 2px solid #cea861;
+    color: #ab8e66;
+}
+.information-left-foot a:hover .information-left-foot .first-child{
+    background: #e3e2e2;
+    color: #424242;
+    border: none;
+}
+
+/* 定义左部分图片盒子背景图片更换效果 */
+ .change-pic {
+     overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 820px;
+    height: 340px;
+   
+}
+.change-pic ul{
+     /*引入轮播动画 */
+     animation-name:move ;
+     animation-duration: 3s;
+     animation-iteration-count: infinite;
+     animation-fill-mode: forwards;
+     animation-timing-function: linear;
+     width: 4100px;
+     height: 340px;
+}
+.change-pic img{
+    width: 820px;
+    height: 340px;
+}
+.change-pic li{
+    float: left;
+    width: 820px;
+    height: 340px;
+}
+/* 定义轮播动画 */
+@keyframes move{
+    0%{
+       transform: translatex(0px );
+    }
+    20%{
+        transform: translatex(-820px);
+    }
+    40%{
+        transform: translatex(-1640px);
+    }
+    60%{
+        transform: translatex(-2460px);
+    }
+    80%{
+        transform: translatex(-3280px);
+    }
+    100%{
+        transform: translatex(-4100px);
+    }
+}
+
+/* <!-- 资讯专栏右部分 --> */
+.information-right {
+    float: right;
+    width: 497px;
+    height: 380px;
+   
+    text-align: center;
+}
+
+.information-right .ul-head{
+    height: 36px;
+    border-bottom: 1px solid #e7e8e8;
+}
+.information-right .ul-head  a{
+    position: relative;
+    float: left;
+    margin-right: 77px;
+    font-size: 17px;
+    color: #676767;
+
+}
+.information-right .ul-head  a:last-child {
+    margin-right:0;
+    color: #1da6ba;
+    font-weight: 700;
+}
+/* 定义资讯专栏右部分头部a的伪元素小图标 */
+ .ul-head   a:after{
+    display: none;
+    position: absolute;
+   content: "";
+   width: 41px;
+   height: 7px;
+   left: 0;
+   bottom: -19px;
+   transition: width .2s,left .2s,margin-left .2s;
+   background-image: url(../upload/after_smal.png);
+}
+ a:hover  .ul-head  a:after{
+    display: block;
+}
+.ul-head a:hover{
+    color: #1da6ba;
+    font-weight: 700;
+}
+.information-right .ul-head  .five:after{
+     position: absolute;
+     display: block;
+    content: "";
+    width: 41px;
+    height: 7px;
+    left: 0;
+    bottom: -19px;
+    transition: width .2s,left .2s,margin-left .2s;
+    background-image: url(../upload/after_smal.png);
+
+}
+.information-right .ul-title{
+    height: 59px;
+    line-height: 59px;
+    color: #0da0b4;
+    font-size: 21px;
+    border-bottom: 1px solid #e7e8e8;
+}
+/* 定义鼠标移动到title时字体颜色变化效果 */
+.information-right .ul-title:hover{
+    color:rgb(187,154,108) ;
+}
+.information-right .ul-body {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e7e8e8;
+}
+.information-right  li:nth-child(8){
+    border-bottom: none;
+}
+.information-right .ul-body span {
+    margin-top:9px ;
+    margin-right: 19px;
+    float: left;
+    height: 21px;
+    width: 37px;
+    line-height: 21px;
+}
+.information-right  .skyblue span{
+    color: #1da6ba;
+    border: 1px solid #85cdd8;
+}
+.information-right   .blue span{
+    color: #6388c5;
+    border: 1px solid #a9bccd;
+}
+.information-right  .green span{
+    color: #4ba36a;
+    border: 1px solid #6db385;
+}
+.information-right .ul-body a{
+    float: left;
+    color: #424242;
+    text-align:left;
+    font-size: 12px;
+}
+
+.information-right .ul-body  i{
+    float: right;
+    color: #a4a4a4;
+}
+.information-right .ul-foot {
+    height: 40px;
+    line-height: 40px;
+    background: #e3e2e2;
+    color: #676767;
+}
+.information-right .ul-foot  a{
+    color: #7ea1a6;
+}
+
+/* 定义鼠标移动到不同分类的a链接时不同的颜色变化效果*/
+.information-right  .skyblue a:hover{
+    color: #1da6ba;
+}
+.information-right  .blue a:hover{
+    color: #6388c5;
+}
+.information-right  .green a:hover{
+    color: #4ba36a;
+}
+/* 定义资讯专栏右部分脚部鼠标移动上去背景颜色变化效果 */
+.information-right .ul-foot:hover{
+    background: rgb(218,216,216);
+}
+/* <!-- 英雄联盟热门活动 --> */
+.hot-activies{
+    height: 721px;
+    margin-top: 49px;
+    background: #eee;
+}
+/* <!-- 热门活动活动部分 --> */
+.hot-activies .act{
+    float: left;
+    width: 820px;
+    height: 333px;
+    
+}
+.hot-activies .act .act-head{
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+}
+
+.act .act-head h3{
+    float: left;
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.act .act-head  h3:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 5px;
+    height: 29px;
+    background: #1da6ba;
+}
+
+.act .act-head  span{
+    float: right;
+    height: 34px;
+    width: 692px;
+    border-bottom: 1px solid #e4e6e6;
+}
+.act-head  span a{
+    position: relative;
+    float: left;
+    margin-right: 41px;
+    font-size: 15px;
+    color: #676767;
+}
+.act-head  span  a:nth-child(3){
+    font-size: 16px;
+    font-weight: 700;
+    color: #1da6ba;
+}
+.act-head  span  a:last-child{
+    float: right;
+    margin-right: 0;
+    font-size: 11px;
+    color: #7ea1a6;
+}
+.act-head  span  a:last-child:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.act-head  span i {
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    background-image: url(../img/hot-activies/hotact_act/act-small.png);
+    width: 69px;
+    height: 8px;
+}
+.act-head  a:nth-child(3) i{
+    display: block;
+}
+.act-head   a:hover i{
+    display: block;
+}
+.act-head  .one:hover .act-head  a .three,
+.act-head .two:hover  .act-head a  .three{
+    display: none;
+}
+/* <!-- 活动部分身体 --> */
+.act-body {
+     float: left;
+}
+.act-body li{
+    position: relative;
+    float: left;
+    width: 193px;
+    height: 279px;
+    margin-right: 16px;
+    margin-top: 21px;
+    background: #fefefe;
+}
+.act-body li:last-child{
+    margin-right: 0;
+}
+.act-body li img{
+    width: 193px;
+    height: 207px;
+}
+.act-body li p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #424242;
+
+}
+.act-body li span{
+    display: block;
+    margin-top: 29px;
+    color: #46b6c7;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.act-body li  i{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 194px;
+    height: 207px;
+    background-image: url(../img/hot-activies/hotact_act/act01.jpg);
+    background-size: 194px 207px;
+}
+.act-body li:hover i{
+    display: block;
+}
+/* 定义鼠标移动到每个li时li变化的效果 */
+.act-body li a{
+   display: block;
+}
+.act-body li:hover  {
+   margin-top: 10px;
+   transition: all 0.4s;
+}
+.act-body li:hover  p{
+    color: #46b6c7;
+}
+/* <!--热门活动右边游戏功能导航 --> */
+.function-nav{
+    float: right;
+    width: 496px;
+}
+
+.function-nav > a{
+    float: left;
+}
+.function-nav > .necessary,
+.function-nav > .get-center {
+    margin-left: 10px ;
+    margin-bottom: 12px;
+}
+.function-nav > .necessary img ,
+.function-nav > .get-center img{
+    width: 119px;
+    height: 77px;
+}
+/* 新手必备：hover */
+.function-nav  .necessary{
+    float: right;
+    position: relative;
+    width: 119px;
+    height: 77px;
+    background-image: url(../upload/hotact_yxgn/lqcenter.png);
+    background-repeat: no-repeat;
+}
+.function-nav  .necessary:hover .necessary-hover{
+    display: block;
+    
+}
+.function-nav  .necessary div{
+    display: none;
+    position: absolute;
+    width: 119px;
+    height: 77px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background: #fff;
+    color: #424242;
+    font-size: 11px;
+    text-align: center;
+}
+.function-nav  .necessary  .left{
+    float: left;
+     width: 60px;
+     height: 70px;
+     border-right: 2px solid #eee;
+}
+.function-nav  .necessary .right{
+    float: left;
+    width: 58px;
+    height: 70px;
+}
+
+ .necessary .left  img,
+ .necessary .right img{
+     width: 22px;
+     height: 18px;
+    margin-top: 18px;
+    margin-left: -4px;
+  
+}
+.necessary a span{
+    display: block;
+    margin-top: 9px;
+}
+.necessary a span:hover{
+    color: #0da0b4;
+}
+/*领取中心：hover */
+.function-nav > .get-center {
+    opacity: 0.8;
+}
+.function-nav > .get-center:hover{
+    opacity: 1;
+}
+
+
+.function-nav ul{
+    margin-top: 16px;
+}
+
+.function-nav  ul li{
+   float: left;
+   width: 113px;
+   height: 68px;
+   line-height: 68px;
+  padding-right: 17px;
+  margin-right: 11px;
+   margin-bottom: 15px;
+   color: #424242;
+   background: #fefefe;
+}
+.function-nav    ul li:nth-child(4),
+.function-nav ul li:last-child {
+    margin-right: 0;
+}
+.function-nav  li img{
+   margin-top: 22px;
+   margin-left: 20px;
+}
+.function-nav  li span{
+     vertical-align: top;
+}
+/* li:hover样式 */
+.function-nav   li:hover span{
+    color: rgb(13,160,180);
+}
+/* 云顶之弈:after*/
+.function-nav    ul .yunding{
+    position: relative;
+}
+.function-nav    ul .yunding:after {
+   content: "";
+   position: absolute;
+   top: -1px;
+   left: -1px;
+   width: 30px;
+   height: 16px;
+   background-image: url(../upload/hotact_yxgn/ydzy_after.png);
+} 
+
+/* 热门活动下的新英雄 新皮肤样式 */
+.new-skin{
+    position: relative;
+    float: left;
+    width: 401px;
+    height: 255px;
+    margin-top: 52px;
+    margin-left: 16px;
+    background-image: url(../img/hot-activies/hotact-bottom/newSkin.jpg)
+}
+.new-hero{
+    position: relative;
+    float: left;
+    margin-top: 52px;
+    width: 403px;
+    height: 255px;
+    background-image: url(../img/hot-activies/hotact-bottom/newHero.jpg);
+}
+.new-hero p,
+.new-skin p{
+   font-size: 16px ;
+   color: #cdbe91;
+   font-size: 16px;
+   margin-top: 201px;
+   margin-left: 18px;
+   font-weight: 700;
+}
+.new-hero span,
+.new-skin span{
+    display: block;
+   font-size: 12px ;
+   color: #cfcfcf;
+   font-size: 16px;
+   margin-top: 10px;
+   margin-left: 18px;
+}
+.new-hero  i,
+.new-skin i{  
+     display: block;
+     position: absolute;
+     top: 9px;
+     left: 20px;
+     width: 49px;
+     height: 20px;
+     text-align: center;
+     
+     background: #000;
+     color: #cdbe91;
+}
+/* 新英雄hover */
+.new-hero:hover .new-hero-hover{
+    display: block;
+}
+.new-hero-hover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 401px;
+    height: 255px;
+    background: rgba(13,13,14,0.8); 
+     background-image: url(../upload/lol-jlt/spr.png);
+    background-position:1px 1px ;
+    
+}
+.new-hero-hover p{
+    margin-top: 25px;
+    margin-left: 27px;
+    font-size: 17px;
+    color: #cdbe91;
+}
+.new-hero-hover a{
+    display: block;
+    width: 154px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 152px;
+    margin-left: 25px;
+    font-size: 12px;
+    color: #ffdb8b;
+    background-position: left 83px  top 179px;
+}
+/* 更多皮肤 */
+.new-skin .more-skin{
+  
+}
+.more-skin li:hover img{
+    width: 188px;
+    height: 121px;
+}
+.more-skin{
+   display: none;
+    position: relative;
+    top: 43px;
+    width: 100%;
+     height: 117px;
+     background: #fff;
+}
+.more-skin li{
+   position: relative;
+    width: 184px;
+    height: 117px;
+    margin-right:12px ;
+    float: left;
+}
+.more-skin li:last-child {
+    margin-right: 0;
+}
+.more-skin li img{
+   width: 184px;
+   height: 117px;
+}
+.more-skin li p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #cdbe91;
+    background:rgba(15,8,6,0.7);
+}
+/* <!-- 定义热门活动的综合导航栏 --> */
+.composite-nav{
+    float: right;
+    width: 496px;
+    height: 255px;
+    margin-top: 38px;
+}
+/* <!-- 定义热门活动的综合导航栏左部分--> */
+.composite-nav .composite-nav-left {
+    float: left;
+    width: 240px;
+    height: 255px;
+}
+/* 版本导航 */  /* <!-- 官方漫画 --> */
+.versions {
+    position: relative;
+    width: 240px;
+    height: 120px;
+    background: url(../img/hot-activies/hotact-bottom/热门活动下的欢迎来到季前赛.jpg);
+}
+/* 版本导航hover */
+.versions:hover  .versions-hover{
+    display: block;
+    top: -20px;
+    left: -16px;
+    transition: all 10s;
+    
+}
+ .versions .versions-hover a:hover {
+    background: rgb(187,154,108);
+    color: #fff;
+} 
+.versions-hover {
+   display: none;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+     width: 270px;
+     height: 251px;
+     background: #fff;
+}
+.versions-hover img{
+    width: 270px;
+    height: 186px;
+}
+.versions-hover  p{
+    margin-top: 15px;
+    color: #0b0b0b;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.versions-hover  span{
+    display: block;
+    margin-top: 9px;
+    color: #a1a1a2;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.versions-hover a{
+    display: block;
+    position: absolute;
+    bottom: 17px;
+    right: 12px;
+    width: 86px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    color: #bb9a6c;
+     font-size: 12px;
+     border: 1px solid #bb9a6c;
+}
+ /* <!-- 官方漫画 --> */
+.cartoon {
+    width: 240px;
+    height: 120px;
+    margin-top: 15px;
+    background: url(../img/hot-activies/hotact-bottom/j.jpg);
+}
+/* 官方漫画hover */
+.cartoon:hover {
+   transition: all 0.5s;
+    background: url(../img/hot-activies/hotact-bottom/jChange.jpg);
+}
+/* <!-- 定义热门活动的综合导航栏右部分--> */
+.composite-nav .composite-nav-right {
+    float: left;
+    margin-left: 13px;
+    width: 243px;
+    height: 255px;
+}
+
+/* <!-- 英雄剖析 --> */
+.yxpx{
+    position: relative;
+    width: 243px;
+    height: 180px;
+    background: #ccc;
+      
+}
+/*英雄剖析hover */
+.yxpx:hover  .yxpx-hover{
+    display: block;
+}
+  .yxpx-hover{
+    display: none;
+    width: 243px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../upload/lol-jlt/spr.png);
+    background-position:left 241px top 1px;
+    background: rgba(18,15,18, 0.7);
+}
+ .yxpx-hover p{
+    margin-top: 75px;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    color: #cdb191;
+}
+ .yxpx-hover span{
+    display: block;
+    margin-top: 10px;
+    color: #9d9c9c;
+    font-size: 11px;
+    width: 100%;
+    text-align: center;
+}
+/* <!-- 周免 --> */
+.weaksform {
+    position: relative;
+    width: 243px;
+    height: 58px;
+    line-height: 58px;
+    margin-top: 17px;
+    background-image: url(../upload/lol-jlt/spr.png);
+    background-repeat: no-repeat;
+    background-position:    center ;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+/* <!-- 周免hover --> */
+.weaksform:hover .weaksform-hover,
+.weaksform:hover .weaksform-hover:after{
+      display: block;
+      z-index: 5;
+}
+.weaksform-hover:after {
+    position: absolute;
+    z-index: 5;
+    top: -24px;
+    left: 298px;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-top: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #fff;
+}
+.weaksform-hover{
+    display: none;
+    position: absolute;
+    bottom: -201px;
+    right: 0;
+    width: 430px;
+    height: 187px;
+    background: #fff;
+}
+.weaksform-hover li{
+  width: 430px;
+  height: 50px;
+  margin-top: 7px;
+}
+.weaksform-hover li a{
+    float: left;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+  
+}
+.weaksform-hover li:first-child {
+    margin-top: 13px;
+}
+.weaksform-hover li img{
+    border-radius: 50%;
+    border: 2px solid #bb9a6c;
+    width: 46px;
+    height: 46px;
+}
+
+/* 视频专辑 */
+.video-album {
+     height: 594px;
+     background: #e3e2e2;
+}
+.video-album  .new-video{
+    float: left;
+    margin-top: 62px;
+    height: 471px;
+    width: 821px;
+}
+  .new-video header{
+      height: 38px;
+      line-height: 38px;
+      width:100% ;
+  }
+  .new-video header h3 {
+      position: relative;
+      float: left;
+      font-weight: normal;
+      font-size: 23px;
+      color: #0b0b0b;
+      margin-left: 9px;
+  } 
+  .new-video header h3:after{
+      content: "";
+      width: 5px;
+      height: 29px;
+      background: #1da6ba;
+      position: absolute;
+      top: 0;
+      left: -11px;
+  }
+  .new-video header .video-right{
+      float: right;
+      width: 693px;
+      border-bottom: 1px solid #dfdedf;
+  }
+.video-right ul{
+    float: left;
+}
+.video-right ul li{
+    position: relative;
+    float: left;
+    margin-right:47px ;
+    font-size: 16px;
+    color: #676767;
+}
+.video-right  li:first-child a{
+    color: #1da6ba;
+    font-weight: 700;
+}
+.video-right li:hover a:after {
+    display: block;
+}
+.video-right li:hover a{
+    color: #1da6ba;
+    font-weight: 700;
+}
+.video-right li a:after{
+    display: none;
+    position: absolute;
+    bottom: -5px;
+    left: -3px;
+    content: "";
+    width: 41px;
+    height: 8px;
+    background-image: url(../img/zxsp/blueLine.png);
+}
+.video-right  li:first-child a:after{
+    display: block;
+    position: absolute;
+    bottom: -5px;
+    left: -3px;
+    content: "";
+    width: 41px;
+    height: 8px;
+    background-image: url(../img/zxsp/blueLine.png);
+}
+.video-right  li:nth-child(5) a:after{
+    display: none;
+    position: absolute;
+    bottom: -5px;
+    left: -6px;
+    content: "";
+     width: 68px;
+     height: 8px;
+     background-size: 68px 8px;
+}
+.video-right  li:nth-child(5) a:before {
+      position: absolute;
+      top: 10px;
+      right: -31px;
+      content: "";
+      width: 29px;
+      height: 16px;
+      background-image: url(../img/zxsp/ydzy-.png);
+}
+.video-right .video-right-right{
+    float: right;
+}
+.video-right .video-right-right a,
+.video-right .video-right-right i{
+    float: left;
+    color: #1ac7e2;
+    font-size: 11px;
+}
+.video-right .video-right-right  i{
+    color: #d0d0d1;
+    font-size: 10px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+/* <!-- 最新视频身体  */
+.video-album .new-video main{
+    height: 402px;
+    width: 100%;
+    margin-top: 31px;
+}
+.new-video main li{
+  position: relative;
+  width: 193px;
+    height: 201px;
+    float: left;
+    margin-right: 16px;
+}
+main li:nth-child(4),
+main  li:last-child{
+     margin-right: 0;
+}
+.new-video main img{
+    width: 193px;
+    height: 107px;
+}
+.new-video main p{
+    width: 154px;
+    font-size: 13px;
+    margin-top: 16px;
+    margin-left: 10px;
+    color: #424242;
+}
+main li a{
+     color: #919091;
+     font-size: 11px;
+}
+main li a {
+    position: absolute;
+    bottom: 23px;
+    left: 10px;
+}
+main li .video-time{
+    position: absolute;
+    left:  123px;
+    bottom: 22px;
+}
+
+/* <!-- 热门 专辑--> */
+ .hot-album {
+     margin-top: 65px;
+     margin-left: 34px;
+       width: 505px;
+       height: 456px;
+       float: left;
+ }
+ /* 热门专辑头部  */
+ .hot-album  header  {
+     position: relative;
+     height: 36px;
+     width: 100%;
+     line-height: 36px;
+ }
+  .hot-album  header h2 {
+    float: left;
+    width:95px;
+    font-weight: normal;
+    font-size: 23px;
+    color: #0b0b0b;
+    margin-left: 9px;
+}  
+  .hot-album  header h2:after{
+     position: absolute;
+     content: "";
+     width: 5px;
+     height: 29px;
+     background: #1da6ba;
+     top: 4px;
+     left: -5px;
+ }
+ .hot-album   .header-right {
+     float: right;
+     height: 36px;
+     width: 369px;
+     border-bottom: 1px solid #ccc;
+ }
+ .hot-album   .header-right  a{
+    position: relative;
+     float: left;
+     margin-right: 20px;
+     font-size: 16px;
+     color: #676767;
+ }
+
+
+  .header-right li:nth-child(4) a{
+    color: #1da6ba;
+    font-weight: 700;
+}
+.hot-album li:hover a:after {
+    display: block;
+}
+.hot-album   li:hover a{
+    color: #1da6ba;
+    font-weight: 700;
+}
+.hot-album li a:after{
+    display: none;
+    position: absolute;
+    bottom: -3px;
+    left: -3px;
+    content: "";
+    width: 41px;
+    height: 8px;
+    background-image: url(../img/zxsp/blueLine.png);
+}
+.hot-album   li:nth-child(4) a:after{
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: -3px;
+    content: "";
+    width: 41px;
+    height: 8px;
+    background-image: url(../img/zxsp/blueLine.png);
+}
+/* <!-- 热门专辑身体 --> */
+.hot-album  main{
+    position: relative;
+    float: left;
+      height: 336px;
+      width: 505px;
+      margin-top: 31px;
+      font-size: 12px;
+}
+.hot-album  main li{
+    position: relative;
+    width: 155px;
+    height: 336px;
+    float: left;
+    margin-right: 14px;
+}
+.hot-album  main li:last-child{
+    margin-right: 0;
+}
+.hot-album  main > img{
+    width: 155px;
+    height: 214px;
+}
+.hot-album  main p{
+    margin-top: 16px;
+    margin-left: 8px;
+    color: #c2c1c2;
+  
+}
+.hot-album  span{
+    position: absolute;
+    bottom: 27px;
+    left: 0;
+    height: 31px;
+    line-height: 31px;
+    display: block;
+    color: #c2c1c2;
+}
+.hot-album  span img{
+    width: 31px;
+    vertical-align: middle;
+    height: 31px;
+    border-radius: 50%;
+}
+/* 身体hover */
+.hot-album main span:hover,
+.hot-album   main p:hover{
+    color: rgb(13,160,180);
+}
+/* 热门专辑身体按钮 */
+.hot-album button:hover{
+    background: rgba(204,204,204,0.8);
+}
+.hot-album button {
+    width: 24px;
+    height: 52px;
+    background: rgba(204,204,204,0.5);
+    font-size: 17px;
+    text-align: center;
+    line-height: 52px;
+    color: #f9f9f9;
+    border-radius: 3px;
+    border: rgb(204,204,204);
+}
+.hot-album .button-left{
+    position: absolute;
+    top: 84px;
+    left: -30px;
+}
+.hot-album .button-right{
+    position: absolute;
+    top: 84px;
+    right: -30px;
+}
+/* 热门专辑脚部部分 */
+.hot-album footer a{
+    display: block;
+    width: 489px;
+    height: 45px;
+    font-size: 16px;
+    margin:2.5px 8px;
+    color: #ab8e66;
+   
+}
+.hot-album  footer{
+    float: left;
+    width: 505px;
+    height: 50px;
+    line-height: 50px;
+    color: #ab8e66;
+    text-align: center;
+    background-image: url(../upload/lol-jlt/spr.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+} 
+.hot-album footer:hover .background-hover{
+   background-color: rgb(245,244,244) ;
+}
+
+/* <!-- 赛事中心 --> */
+.game-center{
+    overflow: hidden;
+    height: 818px;
+    background: rgb(238,238,238);
+}
+/* 头部 */
+.game-center header{
+    position: relative;
+    height: 37px;
+    line-height: 37px;
+    margin-top: 62px;
+}
+.game-center header h3{
+    float: left;
+    margin-left: 9px;
+    color: #494949;
+    font-size: 23px;
+    font-weight: normal;
+}
+.game-center header h3:after{
+    content: "";
+    width: 5px;
+    height: 27px;
+    background: #1da6ba;
+    position: absolute;
+    top: 4px;
+    left: -5px;
+}
+
+.game-center header .header-right{
+    float: right;
+    width: 1232px;
+    height: 37px;
+    border-bottom: 1px solid #ccc;
+}
+.header-right  ul li{
+    position: relative;
+    float: left;
+    margin-right: 55px;
+    color: #676767;
+    font-size: 16px;
+}
+.header-right .header-right-right {
+    float: right;
+}
+.header-right-right img,
+.header-right-right a,
+.header-right-right span{
+    float: left;
+}
+.header-right-right img{
+    margin-top: 6px;
+}
+.header-right-right span{
+    float: left;
+    margin-left: 9px;
+    font-size: 16px;
+    color: #676767;
+}
+.header-right-right a{
+    margin-left: 16px;
+    color: #7ea1a6;
+    font-size: 11px;
+}
+/* 头部hover */
+.game-center  li:first-child {
+    color: #1da6ba;
+    font-weight: 700;
+}
+.game-center li:hover:after {
+    display: block;
+}
+.game-center li:hover {
+    color: #1da6ba;
+    font-weight: 700;
+}
+.game-center li:after{
+    display: none;
+    position: absolute;
+    bottom: -3px;
+    left: 3px;
+    content: "";
+    width: 41px;
+    height: 8px;
+    background-image: url(../img/zxsp/blueLine.png);
+}
+.game-center  li:first-child:after{
+    display: block;
+    position: absolute;
+    bottom:-3px ;
+    left: 3px;
+    content: "";
+    width: 41px;
+    height: 8px;
+    background-image: url(../img/zxsp/blueLine.png);
+}
+.header-right-right a:hover{
+    color: rgb(29,166,186);
+    text-decoration: underline;
+}
+/* 身体 */
+
+.game-center main {
+    height: 684px; 
+}
+/*  公共样式 */
+ main .game-part-one,
+ main .game-part-two,
+ main .game-part-three,
+ main .game-part-four{
+     float: left;
+     width: 263px;
+     height: 100%;
+ }
+ main h2{
+     font-size: 16px;
+     height: 16px;
+     margin-top: 35px;
+     color: #29a2b4;
+ }
+ main h2 a{
+     margin-left: 17px;
+     font-size: 12px;
+     color: #676767;
+ }
+ main  .list-game-over{
+     height: 124px;
+     width: 100%;
+     margin-bottom: 9px;
+ }
+ main  .list-game-over .info{
+     height: 35px;
+     width: 100%;
+     line-height: 35px;
+ }
+ .list-game-over .info i{
+     float: left;
+     width: 41px;
+     height: 15px;
+     background: #bcbcbc;
+     text-align: center;
+     color: #fff;
+    font-size: 11px;
+    margin-top: 11px;
+     line-height: 15px;
+ }
+ .list-game-over .info span{
+     float: left;
+     margin-left: 10px;
+     color: #676767;
+     font-size: 10px;
+ }
+
+ .list-game-over .info a{
+     float: left;
+     margin-left:32px ;
+     width: 43px;
+     height: 21px;
+     text-align: center;
+     font-size: 12px;
+     line-height: 21px;
+     color: #7ea1a6;
+     margin-top: 7px;
+     border: 1px solid #95b1b5;
+ }
+ .list-game-over .info .game-video{
+     margin-left:9px;
+     border-color: #c5ac87;
+     color: #c4a984;
+ }
+
+ .list-game-over .team-loser,
+ .list-game-over .team-win{
+     width: 262px;
+     height: 45px;
+     background: rgb(247,246,246);
+     font-size: 12px;
+     color: #676767;
+     line-height: 45px;
+ }
+ .list-game-over p:last-child{
+    border-top: 1px solid #f0f0f0;
+ }
+ .list-game-over .team-loser img,
+ .list-game-over .team-win img{
+     float: left;
+     width: 30px;
+     height: 30px;
+     margin-left: 11px;
+     margin-top: 8px;
+ }
+ 
+ .list-game-over .team-loser a,
+ .list-game-over .team-win a{
+     float: left;
+     margin-left: 15px;
+     /* height: 45px;
+     line-height: 45px; */
+ }
+ .list-game-over .team-loser span,
+ .list-game-over .team-win span{
+     float: right;
+      width: 23px;
+      height: 45px;
+      background: #bcbcbcbc;
+      color: #fcfcfc;
+      font-size: 13px;
+      line-height: 45px;
+      text-align: center;
+ }
+ .list-game-over .team-win  .score {
+     background: #86a2ad;
+ }
+ /* hover */
+ .list-game-over   .info .game-data:hover{
+    background: rgb(126,161,166);
+    color: #fff;
+ }
+ .list-game-over   .info .game-video:hover{
+     background: rgb(187,154,108);
+     color: #fff;
+ }
+ /* <!--赛事第一部分 淘汰赛--> */
+ /* 结构1*/
+ main .jiegou-one{
+     float: left;
+     width: 276px;
+     height: 100%;
+ }
+
+ .jiegou-one  .jiegou-one-one ,
+ .jiegou-one  .jiegou-one-three{
+  float: left;
+  margin-top: 131px;
+  width: 139px;
+  height: 134px;
+  border: 1px solid #cbcbcb;
+  border-left: none;
+ }
+ .jiegou-one  .jiegou-one-two,
+ .jiegou-one  .jiegou-one-four{
+     float: left;
+      width: 137px;
+      height: 67px;
+      border-bottom: 1px solid #cbcbcb;
+      margin-top: 132px;
+ }
+
+ /* <!-- 赛事第二部分 半决赛 --> */
+ .game-part-two h2{
+     margin-top: 100px;
+ }
+ .game-part-two div:last-child{
+     margin-top: 150px;
+ }
+ /* 结构2 */
+ .jiegou-two{
+     float: left;
+     width: 295px;
+     height: 100%;
+ }
+ .jiegou-two  .jiegou-two-one{
+     float: left;
+     width: 142px;
+     height: 274px;
+     border: 1px solid #cbcbcb;
+     border-left: none;
+     margin-top: 197px;
+ }
+ .jiegou-two  .jiegou-two-two{
+     float: left;
+     width: 153px;
+     height: 1px;
+     margin-top: 328px;
+     border-bottom: 1px solid #cbcbcb;
+ }
+ /* <!-- 赛事第三部分  总决赛 --> */
+ .game-part-three{
+     float: left;
+ }
+ .game-part-three h2{
+     margin-top: 232px;
+ }
+
+ /* <!-- 英雄资料 --> */
+.heroDate{
+    overflow: hidden;
+    height: 625px;
+    background: #e3e2e2;
+}
+/* 头部 */
+.heroDate-head{
+    position: relative;
+    height: 23px;
+    line-height: 23px;
+    margin-top: 73px;
+}
+.heroDate-head h3{
+    float: left;
+    margin-left: 9px;
+    margin-right:8px;
+    color: #494949;
+    font-size: 23px;
+    font-weight: normal;
+}
+.heroDate-head h3:after{
+    content: "";
+    width: 5px;
+    height: 29px;
+    background: #1da6ba;
+    position: absolute;
+    top: 0px;
+    left: -5px;
+}
+
+.heroDate-head .dataBank{
+    float: right;
+    margin-right:36px;
+    font-size: 11px;
+    color: #7ea1a6;
+}
+.heroDate-head  .heroDate-sort li{
+    position: relative;
+    float: left;
+    margin-left: 43px;
+    color: #676767;
+    font-size: 16px;
+}
+.heroDate-sort li:after{
+     position: absolute;
+     top: 3px;
+     left: -27px;
+    content: "";
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-image:url(../upload/英雄联盟精灵图/) ;
+    background-position:-431px -316px;
+}
+/* 身体 */
+.heroDate-body {
+    height: 480px;
+  
+    overflow-y: scroll;
+}
+.heroDate-body li{
+     float: left;
+     margin-top: 25px;
+     margin-right: 39px;
+     
+} 
+ .heroDate-body img{
+     width: 67px;
+     height:67px ;
+
+}
+.heroDate-body span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+    color: #333;
+    font-size: 12px;
+}
+.heroDate-body span:hover{
+    color: rgb(29,166,186);
+}
+
+
+/* <!-- FANART创作馆 --> */
+.creation{
+    overflow: hidden;
+    height: 572px;
+    background: #eeeeee;
+}
+/* <!-- 创作馆左部分头部--> */
+.creation-left {
+    float: left;
+    width: 820px;
+}
+.creation-left .creation-left-top{
+    position: relative;
+    height: 23px;
+    line-height: 23px;
+    margin-top: 73px;
+}
+.creation-left .creation-left-top  h3{
+    float: left;
+    margin-left: 9px;
+    margin-right:8px;
+    color: #494949;
+    font-size: 23px;
+    font-weight: normal;
+}
+.creation-left .creation-left-top  h3:after{
+    content: "";
+    width: 5px;
+    height: 29px;
+    background: #1da6ba;
+    position: absolute;
+    top: 0px;
+    left: -5px;
+}
+.creation-left .creation-left-top  .more{
+    float: right;
+    margin-right:36px;
+    font-size: 11px;
+    color: #7ea1a6;
+}
+/* <!-- 左部分身体 --> */
+.creation-left-body{
+    margin-top: 28px;
+    width: 820px;
+}
+.creation-left-body li{
+    float: left;
+    overflow: hidden;
+    margin-bottom: 17px;
+    margin-right: 16px;
+}
+.creation-left-body li:nth-child(4),
+.creation-left-body li:nth-child(8){
+    margin-right:0px ;
+}
+.creation-left-body li img{
+    width: 193px;
+    height: 173px;
+}
+/*为左部分的li设置hover属性  */
+.creation-left-body li:hover img{
+    transform: scale(1.2);
+}
+/* 创作馆右部分 */
+.creation-right {
+    float: left;
+    margin-top:73px ;
+    margin-left: 43px;
+}
+/* <!-- 创作馆右部分的左半部分 --> */
+.creation-right-left {
+    float: left;
+    width: 241px;
+    height:412px ;
+}
+.creation-right-left img{
+     width: 241px;
+     height:412px ;
+}
+/* 创作馆右部分的左半部分hover效果*/
+.creation-right-left:hover{
+    transform: translateY(-21px);
+    transition: all 0.5s;
+}
+/* <!-- 创作馆右部分的右半部分--> */
+.creation-right-right {
+    float: left;
+    margin-top: 43px;
+    margin-left: 16px;
+}
+.creation-right-right li{
+    position: relative;
+     width: 240px;
+     height: 86px;
+     line-height: 86px;
+     margin-bottom: 16px;
+    font-size: 15px;
+    padding-left: 35px;
+    opacity: 0.9;
+}
+.creation-right-right li a{
+    color: #fff;
+}
+.creation-right-right li:after{
+    position: absolute;
+    top:35px;
+    left: 9px;
+    width: 18px;
+    height: 18px;
+    content: "";
+    display: block;
+    background-image: url(../upload/lol-jlt/spr.png);
+    background-position: -484px  -226px;
+}
+.creation-right-right li:nth-child(1){
+    background-image: url(../img/CZG/CZG-left/02.jfif);
+    background-size: 240px 86px;
+}
+.creation-right-right li:nth-child(2){
+    background-image: url(../img/CZG/CZG-left/03.jfif);
+    background-size: 240px 86px;
+}
+.creation-right-right li:nth-child(3){
+    background-image: url(../img/CZG/CZG-left/04.jfif);
+    background-size: 240px 86px;
+    margin-bottom: 18px;
+}
+.creation-right-right li:nth-child(4){
+    background-image: url(../upload/lol-jlt/spr.png);
+    background-position: -193px -253px;
+    height: 59px;
+    line-height: 59px;
+    color: #fcfaf8;
+    text-align: center;
+    padding-left: 0px;
+}
+.creation-right-right li:nth-child(4):after{
+    display: none;
+}
+/* 设置鼠标移动到右半部分里的li的时候出现高亮效果 */
+.creation-right-right li:hover{
+    opacity: 1;
+}
+
+/* 英雄联盟底部 */
+.LOL-buttom {
+    height: 264px;
+    width: 100%;
+    background-color: #e3e2e2;
+}
+.LOL-buttom  .tx-logo,
+.LOL-buttom  .qt-logo{
+     float: left;
+     margin-left: 28px;
+     margin-top: 115px;
+     width: 189px;
+     height: 35px;
+     background-image:url(../upload/lol-jlt/topfoot-spr.png);
+     background-position: -216px 0px;
+    }
+.LOL-buttom  .qt-logo{
+    margin-top: 117px;
+    margin-left: 32px;
+    width: 82px;
+    height: 28px;
+    background-position: -216px -84px;
+}
+.LOL-buttom p,
+.LOL-buttom ul{
+    float: left;
+    margin-left: 256px;
+    font-size: 11px;
+    color: #9f9378;
+}
+.LOL-buttom ul{
+    margin-top: 11px;
+}
+.LOL-buttom p{
+    margin-top:65px ;
+}
+.LOL-buttom p a,
+.LOL-buttom p i{
+    float: left;
+    color: #9f9378;
+}
+.LOL-buttom p i{
+    margin: 0px 4px  ;
+
+}

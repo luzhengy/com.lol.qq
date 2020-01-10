@@ -1,0 +1,204 @@
+
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/z-wjfw/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 2684px;
+}
+.container {
+    width: 1679px;
+}
+/* 头部 */
+header{
+    width: 100%;
+    height: 59px;
+    line-height: 59px;
+    background-color: #fff;
+}
+header img,
+header i{
+  float: left;
+}
+header i {
+    margin:0 70px;
+    font-size: 25px;
+    color: #cececc;
+}
+/* 头部右部分 */
+.header-right{
+    margin-right: 120px;
+    float: right;
+    
+}
+.header-right a{
+    float: left;
+    font-size: 16px;
+}
+.header-right i{
+    float: left;
+    font-size: 20px;
+    margin: 0 14px;
+}
+.header-right .gwsy{
+    position: relative;
+    width: 132px;
+    height: 28px;
+    border: 1px solid #cececc;
+    color: #464646;
+    padding-left:23px ;
+    margin-top: 14px;
+    padding-top: -2px;
+
+}
+.header-right .gwsy img{
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+/* 主题内容 */
+main .yxlm-logo{
+    display: block;
+    margin-top:119px ;
+}
+main .yxlm-logo img{
+}
+main  input{
+    position: relative;
+    margin-top: 140px;
+    margin-left: 232px;
+    width:1234px ;
+    height: 68px;
+    line-height: 68px;
+    color: #6e6f6f;
+    padding-left:83px;
+    border: none;
+    font-size: 21px;
+    background-color: transparent;
+    border-bottom: 2px solid #c5a662;
+}
+main  input:after{
+    position: absolute;
+    left: 31px;
+    bottom: 14px;
+    content: "";
+    display:block;
+    width: 37px;
+    height: 37px;
+    background-color: orange;
+    background-image: url(../img/z-wjfw/spr.png);
+    background-position: -679px -114px;
+}
+main  .wjfw-details {
+     margin-top: 102px;
+     margin-left: 79px;
+}
+main  .wjfw-details li{
+    position: relative;
+    float: left;
+    width: 448px;
+    height: 505px;
+    border: 4px solid #3a362b;
+    margin-right:32px ;
+}
+ .wjfw-details li  .Logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .wjfw-details li h3{
+     margin-top: 23px;
+     font-size: 21px;
+     color: #a19891;
+     padding-left: 73px;
+
+ }
+ .wjfw-details li p{
+     margin-top: 52px;
+     margin-left: 42px;
+     margin-right: 42px;
+     margin-bottom: 32px;
+     font-size: 18px;
+     height: 44px;
+     line-height: 44px;
+     color: #7f7d7b;
+ }
+ .wjfw-details li .information {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 439px;
+     height: 261px;
+     margin-top: 32px;
+ }
+ footer{
+    margin-top:331px;
+ }
+ footer h3{
+   
+     width: 100%;
+     text-align: center;
+     font-size: 39px;
+     color: #d5b671;
+ }
+ footer ul{
+     margin-top: 89px;
+ }
+ footer ul li{
+     position: relative;
+     float: left;
+     margin-right: 50px;
+     margin-bottom: 40px;
+     height: 303px;
+     width: 509px;
+     border: 1px solid #262c31;
+     background-color: #1c2227;
+ }
+ footer li:after {
+     position: absolute;
+     top: 71px;
+     left: 205px;
+     content: "";
+     display: block;
+     width: 104px;
+     height: 105px;
+     background-image: url(../img/z-wjfw/spr.png);
+     background-position: 0 -509.6px;
+     background-size: 1411px 1048px;
+ }
+ footer li:nth-child(2):after{
+    background-position: -1167px  -750px;
+ }
+ footer li:nth-child(3):after{
+    background-position:-428.2px -509.6px;
+ }
+ footer li:nth-child(4):after{
+    background-position: -534.8px -509.6px;
+ }
+ footer li:nth-child(5):after{
+    background-position: -212.8px -509.6px;
+ }
+ footer li:nth-child(6):after{
+    background-position: -319.2px -509.6px;
+ }
+ footer li:nth-child(7):after{
+    background-position: -106.4px -509.6px
+ }
+ footer li:nth-child(8):after{
+    background-position: -742px -509.6px
+ }
+ footer li:nth-child(9):after{
+    background-position: -641.2px -509.6px
+ }
+ footer li p{
+     margin-top: 192px;
+     text-align:  center;
+     width: 100%;
+     font-size: 24px;
+     color: #8e8b83;
+
+ }
+ footer li:hover{
+     background-color: rgb(3,5,6);
+ }

@@ -1,0 +1,196 @@
+.product-LOL {
+    width: 100%;
+}
+.container{
+    width: 1515px;
+}
+.product-LOL  header{
+    width: 100%;
+    height: 110px;
+    line-height: 110px;
+    background-color: #000;
+}
+.product-LOL  header  .LOL-logo{
+    float: left;
+    margin-top: 26px;
+    margin-left: 33px;
+}
+.product-LOL  header   input{
+    position: relative;
+    float: left;
+    margin-left: 45px;
+    color: #999;
+    border: 1px solid #666;
+    padding-left: 29px;
+    width: 414px;
+    height: 46px;
+    margin-top: 32px;
+    border-radius: 23px;
+    font-size: 17px;
+    background-color: #000;
+}
+.product-LOL  header   input:hover{
+    border: 1px solid #fff;
+}
+.product-LOL  header   input:after{
+    position: absolute;
+    top: 11px;
+     right: 16px;
+    content: "";
+    display: block;
+    width:25px;
+    height: 24px;
+    /* background-image: url(../img/人共客服头部小图/搜索按钮.png); */
+    background-color: red;
+}
+.product-LOL  header  .service-log  {
+     float: right;
+     font-size: 23px;
+     font-weight: 700;
+     color: #fff;
+}
+.product-LOL  header .user-qq{
+    float: right;
+    margin-right: 59px;
+    height: 110px;
+    line-height: 110px;
+    color: #fff;
+}
+
+
+.user-qq  .user-tx{
+    float: left;
+    margin-right: 13px;
+    border-radius: 50%;
+    margin-top: 34px;
+}
+.product-LOL   .user-qq p{
+    float: left;
+    height: 100%;
+}
+  .user-qq p i{
+      margin-top: 51px;
+      margin-left: 5px;
+  }
+
+/* 主体内容 */
+.product-LOL main .main-title{
+    display: block;
+    width: 100%;
+    height: 192px;
+    text-align: center;
+    line-height: 192px;
+    font-size: 54px;
+    color: #ffd674;
+}
+.main-body{
+    height: 1223px;
+    width: 100%;
+    background-color: #fff;
+}
+.main-body .main-body-left{
+     float: left;
+     width: 275px;
+      
+}
+.main-body .main-body-left li{
+    width: 100%;
+    height: 81px;
+    border-bottom: 1px solid #312f2e;
+    background-color: rgb(56,54,53);
+    line-height: 81px;
+    padding-left: 48px;
+    font-size: 20px;
+    color: #fff;
+}
+.main-body .main-body-left li:first-child{
+    background-color: #c08c02;
+    font-weight: 600;
+    color: #333;
+}
+.main-body .main-body-right{
+    float: left;
+    margin-left: 68px;
+    width: 1096px;
+    height: 1223px;
+    
+}
+.main-body .main-body-right p{
+    position: relative;
+    width: 100%;
+    height: 69px;
+    margin-top: 61px;
+    border: 1px solid #e1e1e1;
+    line-height: 69px;
+    padding-left: 118px;
+    
+}
+.main-body-right p a{
+    color: #0088cc;
+}
+.main-body-right p img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* 热门问题 */
+.main-body-right  .hot-question-title{
+    margin-top: 50px;
+    font-size: 26px;
+}
+.main-body-right  .hot-question  li{
+    width: 100%;
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* 自助工具 */
+.main-body-right .Helptool-title{
+    width: 100%;
+    margin-top: 52px;
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 23px;
+}
+.main-body-right .Helptool-left,
+.main-body-right .Helptool-right{
+      float: left;
+      margin-right: 28px;
+      width: 254px;
+      height: 136px;
+      border: 1px sold #ccc;
+
+}
+.main-body-right .Helptool-left img,
+.main-body-right .Helptool-right img
+{
+    width: 100%;
+    height: 100%;
+}
+.main-body-right .Helptool-left:hover,
+.main-body-right .Helptool-right:hover{
+     border: 1px solid orange;
+}
+/* 底部 */
+footer{
+    width: 100%;
+   text-align: center;
+   margin-top: 493px;
+   color: #888;
+   font-size: 17px;
+   margin-bottom: 86px;
+}
+footer .link a{
+   color: #888;
+}
+footer i{
+ 
+   margin: 0 12px;
+}
+footer .copyright{
+   margin-top: 19px;
+}
+
+
+
